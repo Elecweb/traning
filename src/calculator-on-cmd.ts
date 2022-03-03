@@ -1,17 +1,17 @@
 import ps from "prompt-sync";
 
 class Calculator {
-  add = (num1: number, b: number) => {
-    return num1 + b;
+  add = (a: number, b: number) => {
+    return a + b;
   };
-  minus = (num1: number, b: number) => {
-    return num1 - b;
+  minus = (a: number, b: number) => {
+    return a - b;
   };
-  multiply = (num1: number, b: number) => {
-    return num1 * b;
+  multiply = (a: number, b: number) => {
+    return a * b;
   };
-  divide = (num1: number, b: number) => {
-    return num1 / b;
+  divide = (a: number, b: number) => {
+    return a / b;
   };
 }
 
