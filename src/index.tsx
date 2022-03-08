@@ -4,10 +4,18 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import Login from "./pages/Login";
+<<<<<<< HEAD
+=======
+import TestError from "./pages/TestError";
+>>>>>>> 735e4cb (feat: login form)
 
 ReactDOM.render(
   <React.StrictMode>
     <Login />
+<<<<<<< HEAD
+=======
+    <TestError />
+>>>>>>> 735e4cb (feat: login form)
   </React.StrictMode>,
   document.getElementById("root")
 );
