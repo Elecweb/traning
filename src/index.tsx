@@ -5,17 +5,23 @@ import reportWebVitals from "./reportWebVitals";
 
 import Login from "./pages/Login";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import TestError from "./pages/TestError";
 >>>>>>> 735e4cb (feat: login form)
+=======
+>>>>>>> 4daba60 (feat: validate email using regular expression)
 
 ReactDOM.render(
   <React.StrictMode>
     <Login />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <TestError />
 >>>>>>> 735e4cb (feat: login form)
+=======
+>>>>>>> 4daba60 (feat: validate email using regular expression)
   </React.StrictMode>,
   document.getElementById("root")
 );
