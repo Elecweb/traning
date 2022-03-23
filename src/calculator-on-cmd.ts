@@ -18,34 +18,34 @@ class Calculator {
 class PromtCmd {
   calculator = new Calculator();
 
-  operator: string;
+  opa: string;
   num1: number;
   num2: number;
 
-  constructor(operator: string, num1: number, num2: number) {
-    this.operator = operator;
+  constructor(opa: string, num1: number, num2: number) {
+    this.opa = opa;
     this.num1 = num1;
     this.num2 = num2;
   }
 
   displayCalc = () => {
     var result;
-    switch (this.operator) {
+    switch (this.opa) {
       case "+":
         result = this.calculator.add(this.num1, this.num2);
-        console.log(`${this.num1} ${this.operator} ${this.num2} = ${result}`);
+        console.log(`${this.num1} ${this.opa} ${this.num2} = ${result}`);
         break;
       case "-":
         result = this.calculator.minus(this.num1, this.num2);
-        console.log(`${this.num1} ${this.operator} ${this.num2} = ${result}`);
+        console.log(`${this.num1} ${this.opa} ${this.num2} = ${result}`);
         break;
       case "*":
         result = this.calculator.multiply(this.num1, this.num2);
-        console.log(`${this.num1} ${this.operator} ${this.num2} = ${result}`);
+        console.log(`${this.num1} ${this.opa} ${this.num2} = ${result}`);
         break;
       case "/":
         result = this.calculator.divide(this.num1, this.num2);
-        console.log(`${this.num1} ${this.operator} ${this.num2} = ${result}`);
+        console.log(`${this.num1} ${this.opa} ${this.num2} = ${result}`);
         break;
       default:
         console.log("Invalid Operator!");
